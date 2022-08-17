@@ -1,7 +1,11 @@
 import { createAction } from '@reduxjs/toolkit';
 
-export const fetchPokemonsRequest = createAction('books/fetchPokemonsRequest');
+export const fetchPokemonsRequest = createAction(
+  'pokemons/fetchPokemonsRequest'
+);
 
-export const fetchPokemonsSuccess = createAction('books/fetchPokemonsSuccess');
+export const fetchPokemonsSuccess = createAction(
+  'pokemons/fetchPokemonsSuccess'
+);
 
-export const fetchPokemonsError = createAction('books/fetchPokemonsError');
+export const fetchPokemonsError = createAction('pokemons/fetchPokemonsError');
